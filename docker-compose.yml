@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  jellex:
+    image: jellex
+    build:
+      context: .
+      dockerfile: ./Dockerfile

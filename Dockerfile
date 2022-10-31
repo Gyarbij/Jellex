@@ -1,5 +1,5 @@
 # Base Image: python:3.8-slim
-FROM python:3.8-slim
+FROM python:3.11.0-slim
 
 # Keeps Python from generating .pyc files in the container
 ENV PYTHONDONTWRITEBYTECODE=1
